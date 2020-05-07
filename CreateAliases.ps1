@@ -8,6 +8,12 @@ function add {
         git add -A :/
     }
 }
+Add-Alias tf 'terraform'
+Add-Alias tfls 'tf state list'
+Add-Alias stage2 'cd ~\Projetos\Infra\NovoSite\DevOps\terraform\us-east-1\stage2'
+Add-Alias stage 'cd ~\Projetos\Infra\NovoSite\DevOps\terraform\us-west-2\stage'
+Add-Alias production 'cd ~\Projetos\Infra\NovoSite\DevOps\terraform\us-east-1\production'
+Add-Alias devops 'cd ~\Projetos\Infra\NovoSite\DevOps\'
 Add-Alias st 'git status'
 Add-Alias push 'git push'
 Add-Alias pull 'git pull'
